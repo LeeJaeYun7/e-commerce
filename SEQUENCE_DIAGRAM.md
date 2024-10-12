@@ -1,6 +1,8 @@
 ## SEQUENCE DIAGRAM 
 
 ### 잔액 충전 조회 API
+![E-Commerce drawio (2)](https://github.com/user-attachments/assets/1a5f7e95-fdc7-429b-8cee-1bdf1a54fb4f)
+
 
 
 ### 상품 조회 API 
