@@ -6,6 +6,8 @@
 
 
 ### 상품 조회 API 
+![E-Commerce drawio (3)](https://github.com/user-attachments/assets/83e49a7b-9814-429e-a12c-07e421ccdb7f)
+
 
 ### 주문/결제 API
 
