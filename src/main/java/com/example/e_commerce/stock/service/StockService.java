@@ -12,6 +12,6 @@ public class StockService {
     }
 
     public Stock getStock(long productId) throws Exception {
-        return stockRepository.findByIdWithLock(productId).orElseThrow(() -> new Exception());
+        return stockRepository.findByIdWithLock(productId).orElseThrow(Exception::new);
     }
 }
