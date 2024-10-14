@@ -1,3 +1,4 @@
+```
 erDiagram
     PRODUCT {
         integer id PK
@@ -56,3 +57,4 @@ erDiagram
     ORDER ||--o{ PRODUCT : contains
     ORDER ||--o{ ORDER_PRODUCT : contains
     PRODUCT ||--o{ ORDER_PRODUCT : contains
+```
