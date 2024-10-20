@@ -16,4 +16,8 @@ public class ProductService {
     public Product getProduct(long productId) throws Exception {
         return productRepository.findById(productId).orElseThrow(Exception::new);
     }
+
+    public long getProductPrice(long productId) throws Exception {
+        return getProduct(productId).getPrice();
+    }
 }

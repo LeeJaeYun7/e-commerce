@@ -6,21 +6,21 @@ import lombok.Builder;
 import lombok.Getter;
 
 @Getter
-public class ProductResponse {
+public class ProductStockResponse {
 
     private final String name;
     private final long price;
     private final long quantity;
 
     @Builder
-    public ProductResponse(String name, long price, long quantity){
+    public ProductStockResponse(String name, long price, long quantity){
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
-    public static ProductResponse of(Product product, Stock stock){
-        return ProductResponse.builder()
+    public static ProductStockResponse of(Product product, Stock stock){
+        return ProductStockResponse.builder()
                               .name(product.getName())
                               .price(product.getPrice())
                               .quantity(stock.getQuantity())
