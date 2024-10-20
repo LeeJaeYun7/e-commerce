@@ -1,6 +1,5 @@
 package com.example.e_commerce.product.controller;
 
-import com.example.e_commerce.product.dto.ProductResponse;
 import com.example.e_commerce.product.dto.ProductStockResponse;
 import com.example.e_commerce.product.service.ProductFacade;
 import org.springframework.http.HttpStatus;
