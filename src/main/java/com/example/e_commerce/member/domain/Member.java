@@ -34,5 +34,11 @@ public class Member extends BaseTimeEntity {
     public void updateBalance(long balance){
         this.balance = balance;
     }
+
+    public void isOrderAvailable(long orderAmount) throws Exception {
+        if(this.balance - orderAmount < 0){
+            throw new Exception();
+        }
+    }
 }
 
